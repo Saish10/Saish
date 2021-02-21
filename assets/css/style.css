@@ -818,7 +818,7 @@ p {
 /* Social Icons */
 
 .ts-social-icons {
-    font-size: 120%;
+    font-size: 140%;
 }
 
 .ts-social-icons a {
@@ -1442,62 +1442,6 @@ dl dt {
 
 dl dd {
     margin-bottom: 1rem;
-}
-
-/*-------------------------------------------
-  -- Forms
--------------------------------------------*/
-
-form.ts-labels-inside-input .form-group,
-.ts-form.ts-labels-inside-input .form-group {
-    position: relative;
-}
-
-form.ts-labels-inside-input .form-group label,
-.ts-form.ts-labels-inside-input .form-group label {
-    line-height: 2.625rem;
-    left: .8125rem;
-    opacity: .4;
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    transition: .3s ease;
-}
-
-form.ts-labels-inside-input .form-group label.focused,
-.ts-form.ts-labels-inside-input .form-group label.focused {
-    top: -2.1875rem;
-    left: 0;
-    font-size: .75rem;
-    opacity: 1;
-}
-
-.form-control {
-    background-color: rgba(255, 255, 255, .1);
-    border: 0;
-    box-shadow: none;
-    border-radius: 0;
-    color: #fff;
-    padding: .5625rem .75rem;
-    transition: .3s ease;
-}
-
-.form-control:hover {
-    background-color: rgba(255, 255, 255, .2);
-}
-
-.form-control:focus {
-    background-color: rgba(255, 255, 255, .3);
-    box-shadow: none;
-    color: #fff;
-}
-
-.form-group {
-    margin-bottom: 1.5625rem;
-}
-
-.form-group label {
-    font-size: .8125rem;
 }
 
 .ts-gallery {
